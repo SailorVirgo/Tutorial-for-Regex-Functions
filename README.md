@@ -4,7 +4,7 @@
 This tutorial explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does. The regex we will be exploring is used to match a valid email address.
 
 ## Summary
-The regex for matching an email address is: /^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/
+The regex for matching an email address is: `/^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/`
 
 This regex ensures that an email address has a proper format with an alphanumeric username, an @ symbol, a domain name, and a top-level domain.
 
@@ -77,5 +77,8 @@ In our regex, `\.` is used to match the dots in email addresses, such as in the 
 This regex effectively matches a properly formatted email address by using various components such as anchors, quantifiers, character classes, grouping, and escaping. By breaking down the regex, we can see how each part contributes to validating an email address.
 
 ## About the Author
-This tutorial was written by Eric Casanova , a web development student passionate about coding and sharing knowledge. You can find more of my work on GitHub: [SailorVirgo](https://github.com/SailorVirgo).
+This tutorial was written by Eric Casanova, a web development student passionate about coding and sharing knowledge. You can find more of my work on GitHub: [SailorVirgo](https://github.com/SailorVirgo).
 
+## Web Page to GitGist
+
+https://gist.github.com/SailorVirgo/bccb901a5185f5007dafa93c3ade606a
